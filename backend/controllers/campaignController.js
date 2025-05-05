@@ -1,4 +1,4 @@
-import Campaign from '../models/Campaign.js';
+import Campaign from '../models/campaign.js';
 import { filterTraffic } from '../utils/trafficFilter.js';
 
 export const createCampaign = async (req, res) => {
